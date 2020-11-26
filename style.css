@@ -1,0 +1,18 @@
+.flex-container > li{
+    display: flex;
+    background-color:palevioletred;
+    margin: 10px;
+    padding: 20px;
+  }
+  
+  .flex-container{
+    background-color: #f3f1f4;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    
+  }
+  .flex-container >li{
+    outline: thick ridge pink;}
+  
+  
