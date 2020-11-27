@@ -1,22 +1,69 @@
+<!DOCTYPE html>
 <html>
-    <body>
-        <label>Name:
-            <input type="text" name="Name">
-        </label><br><br>
+    <head>
+        <style>
+            body{
+            background-image: url('images/contact.png');
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        .name{
+            display:flex;
+            justify-content: flex-start;
+            font-size: 30px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        li{
+            float: left;
             
-        <label>Email:
-            <input type="text" name="Email">
-        </label><br><br>
+        }
+        li a {
+            display:block;
+            padding: 8px;
+            background-color: #DBA9B4;
+            text-decoration: none;
+            font-family: 'Nerko One', cursive;
+        }
+        ul{list-style: none;}
         
+        </style>
+    </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <body>
+        <div class="name">
+            <p>
+            Natalie Long
+            </p>
+        </div>
+        <ul>
+            <li><a href = "menu.html">Home</a></li>
+            <li><a href = "aboutme.html">About Me</a></li>
+            <li><a href = "education_project.html">Education & Project</a></li>
+            <li><a href = "riasec_Personality.html">RIASEC & Personality</a></li>
+            <li><a href = "form.html">Contact</a></li>
+
+        </ul>
+        <form>
+            <label>Name:
+            <input type="text" name ="Name">
+        </label><br><br>
+
+        <label>Email:
+                <input type="text" name="Email">
+            </label><br><br>
+
         <label>Contact:
             <input type="text" name="Contact No.">
-        </label><br><br>
-        
-        <p></p>
-            
-            
-        <p></p>
-        
+        </label><br><br>    
         
         <p>Additional information:</p>
         <textarea id="Additional information" rows="5" cols = "50">
@@ -24,5 +71,12 @@
         
         <input type="submit" value="Submit">
         </form>
+       
+    </body>
+</html>                
+            
+        
+        
+        
     </body>
 </html>

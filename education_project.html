@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        .name{
+            display:flex;
+            justify-content: flex-start;
+            font-size: 30px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            text-decoration: none;
+        }
+        li{
+            float: left;            
+        }
+        li a {
+            display:block;
+            padding: 8px;
+            background-color: #DBA9B4;
+            text-decoration: none;
+            font-family: 'Nerko One', cursive;           
+        }
+        ul{list-style: none;}
+        
+        @media screen and (max-width: 576px) {
+            .flex-container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            justify-content: center;
+            }
+        }        
+        body{
+            background-image: url('images/background.png');
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+    </style>
+    </head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <body>
+        <div class="name">
+            <p>
+            Natalie Long
+            </p>
+        </div>
+        <ul>
+            <li><a href = "menu.html">Home</a></li>
+            <li><a href = "aboutme.html">About Me</a></li>
+            <li><a href = "education_project.html">Education & Project</a></li>
+            <li><a href = "riasec_Personality.html">RIASEC & Personality</a></li>
+            <li><a href = "form.html">Contact</a></li>
+
+        </ul>
+        
+
+    </body>
+</html>

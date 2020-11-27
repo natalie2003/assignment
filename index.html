@@ -15,16 +15,55 @@
         .Name{
             display: flex;
             justify-content: center;
-            align-items: center;
             text-align: center;
-            font-size: 40px;
+            font-size: 30px;
+            position: absolute;
+            left: 45px;
             
         }
-        
-        .button{
+
+        .icontainer{
             border: 1px solid #DBA9B4;
             background-color: #DBA9B4;
             padding: 10px;
+            width: 450px;
+            height: 200px;
+            position: absolute;
+            top: 150px;
+            left:300px;
+            color: #fff;
+            border: 2px solid transparent;
+            border-radius: 20px;
+            background-image: linear gradient(#DBA9B4, #DBA9B4)radial-gradient(circle at top left,#fd00da,#19d7f8);
+            background-origin: border-box;
+            background-clip: content-box,border-box;
+        }
+        ul{
+            list-style: none;
+        }
+        
+        .button{
+            position:absolute;
+            left: 140px;
+            top: 135px;
+            text-decoration: none;
+            color: #fff;
+            border: 2px solid transparent;
+            border-radius: 20px;
+            background-image: linear-gradient(#DBA9B4,#dd9caa),radial-gradient(circle at top left,#fd00da,#19d7f8);
+            background-origin: border-box;
+            background-clip: content-box,border-box;
+        }
+        .button span{
+            display :block;
+            padding: 8px 22px;
+        }
+        body{
+            background-image: url('images/index.png');
+            background-size: cover;
+            background-position: top;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
         }
 
         </style>
@@ -33,28 +72,15 @@
             <div class="icontainer">
                 <div class="Name">
                     <ul>
-                        <li>Haii</li>
+                        <li>Haii!</li>
                         <li>My name is Natalie Long</li>
-                        <li>Welcome to my page</li>
-                        <li><a href = "menu.html" ></a>Enter -></li>
+                        <li>Welcome to my page :)</li>
+                        
+                        <li><a href = "menu.html" class = "button"><span>Enter</span></li></a>
                     </ul>
                 </div>
 
             </div>
-            
-                <ul>
-                Haii!
-                <br>My name is Natalie Long
-                <br>Welcome to my page :)
-                <br>
-                <div class ="button">
-                    Enter ->               
-                </div>
-            </ul>
-            </div>
-             
-            
-            
         </body>
     </head>
 </html>
