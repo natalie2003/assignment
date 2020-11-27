@@ -26,6 +26,38 @@
             font-family: 'Nerko One', cursive;
         }
         ul{list-style: none;}
+        .project{
+            display:flex;
+            justify-content: space-between;
+            background-color: #DBA9B4;
+        }
+        .project2{
+            display:flex;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            background-color: #CDB0D1;
+        }
+        .split1{
+            width:auto;
+            position: relative;
+            top:100px;
+            text-align: center;
+            font-size: 2vw;
+            color:#CDB0D1;
+            font-family:'Courier New', Courier, monospace;
+        }
+        @media screen and(max-width:576px){
+            .project{
+                flex-direction:column;
+            }
+            .project2{
+                flex-direction: column;
+            }
+            .img{
+                width: 100%
+            }
+            
+        }
         body{
             background-image: url('images/background.png');
             background-size: cover;
@@ -50,10 +82,30 @@
             <li><a href = "education.html">Education</a></li>
             <li><a href = "project.html">Project</a></li>
             <li><a href = "riased.html">RIASEC</a></li>
-            <li><a href = "personality.html">Personlity</a></li>
+            <li><a href = "personality.html">Personality</a></li>
             <li><a href = "form.html">Contact</a></li>
         </ul>
-        
+        <section class="project1">
+            <div class="split">
+                <img src="" alt="project1" width="375" height="375">
+            </div>
+            <div class="split1">
+                <h2>
+                    Project 1
+                </h2>
+            </div>
+        </section>
+
+        <section class="project2">
+            <div class="split">
+                <img src="" alt="project2" width="375" height="375">
+            </div>
+            <div class="split1">
+                <h2>
+                    Project 2
+                </h2>
+            </div>
+        </section>
 
     </body>
 </html>

@@ -26,6 +26,38 @@
             font-family: 'Nerko One', cursive;
         }
         ul{list-style: none;}
+        .description{
+            background-color:rgb(238, 229, 240);
+            width: 650px;
+            line-height: 35px;
+            border-radius: 20px;
+            margin: 65px;
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            font-family:Indira k;
+        }
+
+        .img{
+            line-height: 35px;
+            margin: 65px;
+
+        }
+        @media screen and (max-width: 576px) {
+            .pecontainer{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            justify-content: center;
+            }
+        }
+
+        .pcontainer{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+
+        }
         body{
             background-image: url('images/background.png');
             background-size: cover;
@@ -53,6 +85,19 @@
             <li><a href = "personality.html">Personality</a></li>
             <li><a href = "form.html">Contact</a></li>
         </ul>
+        <section>
+            <ul class="pcontainer">
+                <li class="description"> 
+                    <br>From this profile, I can see that I like to think about solutions to problems. I think that it is very relevant to what I am learning as I will be able to solve problems with the help of technology.
+                    <br>
+                
+                </li>
+                <li class="img">
+                    <img src= "images/riasec.png" title ="INFJ" alt="ms" width="500" height="700">
+                    
+                </li>
+            </ul>
+        </section>
         
 
     </body>

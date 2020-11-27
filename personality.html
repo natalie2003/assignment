@@ -26,6 +26,39 @@
             font-family: 'Nerko One', cursive;
         }
         ul{list-style: none;}
+
+        .description{
+            background-color:rgb(238, 229, 240);
+            width: 650px;
+            line-height: 35px;
+            border-radius: 20px;
+            margin: 65px;
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            font-family:Indira k;
+        }
+
+        .img{
+            line-height: 35px;
+            margin: 65px;
+
+        }
+        @media screen and (max-width: 576px) {
+            .pecontainer{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+            justify-content: center;
+            }
+        }
+
+        .pecontainer{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+
+        }
         body{
             background-image: url('images/background.png');
             background-size: cover;
@@ -50,10 +83,22 @@
             <li><a href = "education.html">Education</a></li>
             <li><a href = "project.html">Project</a></li>
             <li><a href = "riased.html">RIASEC</a></li>
-            <li><a href = "personality.html">personality</a></li>
+            <li><a href = "personality.html">Personality</a></li>
             <li><a href = "form.html">Contact</a></li>
         </ul>
-        
+        <section>
+            <ul class="pecontainer">
+                <li class="description"> 
+                    <br>Based on the Myer Briggs personality test, I am an INFJ!
+                    <br>
+                
+                </li>
+                <li class="img">
+                    <img src= "images/personality.png" title ="INFJ" alt="Myer Briggs Personality" width="700" height="200">
+                    
+                </li>
+            </ul>
+        </section>
 
     </body>
 </html>

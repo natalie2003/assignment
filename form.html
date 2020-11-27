@@ -20,6 +20,8 @@
             padding: 0;
             overflow: hidden;
             text-decoration: none;
+            
+            
         }
         li{
             float: left;
@@ -34,10 +36,26 @@
         }
         ul{list-style: none;}
         
+        form{
+            display: block;
+            background-color:#DBA9B4;
+            border-radius: 20px;
+            width: 500px;
+            line-height: 35px;
+            font-family:Indira k;
+            position: absolute;
+            left: auto;
+            top: 175px;
+        }
+        .LI-profile-badge{
+            position: absolute;
+            right: 25px;
+        }
         </style>
     </head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    
     <body>
         <div class="name">
             <p>
@@ -50,21 +68,24 @@
             <li><a href = "education.html">Education</a></li>
             <li><a href = "project.html">Project</a></li>
             <li><a href = "riased.html">RIASEC</a></li>
-            <li><a href = "personality.html">personality</a></li>
+            <li><a href = "personality.html">Personality</a></li>
             <li><a href = "form.html">Contact</a></li>
         </ul>
         <form>
+            <h1>
+                Contact details
+            </h1>
             <label>Name:
             <input type="text" name ="Name">
-        </label><br><br>
+        </label><br>
 
         <label>Email:
                 <input type="text" name="Email">
-            </label><br><br>
+            </label><br>
 
         <label>Contact:
             <input type="text" name="Contact No.">
-        </label><br><br>    
+        </label><br>    
         
         <p>Additional information:</p>
         <textarea id="Additional information" rows="5" cols = "50">
@@ -72,7 +93,9 @@
         
         <input type="submit" value="Submit">
         </form>
-       
+       <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+       <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="natalie-long-b967391a9"><a class="LI-simple-link" href='https://sg.linkedin.com/in/natalie-long-b967391a9?trk=profile-badge'>Natalie Long</a></div>
+
     </body>
 </html>                
             
